@@ -1,0 +1,21 @@
+.All {
+    background-color: #eee;
+    padding: 30px; 
+    width: 30%;
+    margin: 10px auto;
+
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.Item {
+    margin: 5px 0;
+}
+
+.Label {
+    margin-right: 10px;
+}

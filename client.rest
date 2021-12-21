@@ -1,0 +1,31 @@
+GET http://localhost:4000/animals
+ 
+###
+ 
+GET http://localhost:4000/animals/2
+ 
+###
+ 
+POST http://localhost:4000/animals
+content-type: application/json
+ 
+{
+    "type": "owca",
+    "age": 2,
+    "color": "biały",
+    "name": "Karolina"
+}
+ 
+###
+ 
+PUT http://localhost:4000/animals/2
+content-type: application/json
+ 
+{
+    "type": "kura",
+    "age": 19,
+    "color": "czerwony"
+}
+ 
+###
+DELETE http://localhost:4000/animals/1

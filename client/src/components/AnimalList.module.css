@@ -1,0 +1,12 @@
+.List {
+    margin: 50px;
+}
+
+.Table {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+.Cell {
+    padding: 10px 50px;
+}
